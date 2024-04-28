@@ -43,3 +43,36 @@ The archer stood poised, her bow drawn, ready to loose the arrow.
 那个射手摆好射箭的姿势,拉满弓箭,随时可以射出箭矢。
 ```
 
+### 2. 文章内容总结
+
+### 输入
+
+```xml
+Write three easy-to-read sentences to summarize the following text:
+
+"""
+Title: {{ document.title }}
+Author: {{ document.author }}
+Domain: {{ document.domain}}
+{#- The if-else logic below checks if the document is long. If so, it will use key sentences to not exceed the GPT prompt window. We highly recommend not changing this unless you know what you're doing. -#}
+{% if (document.content | count_tokens) > 2000 %}
+{{ document.content | central_sentences | join('\n\n') }}
+{% else %}
+{{ document.content }}
+{% endif %}
+"""
+
+
+IMPORTANT: Write no more than THREE sentences. Each sentence should be short and easy-to-read. Use words sparingly and please capture the big idea.
+```
+
+### 输出
+
+```xml
+In the next few years, it's best to avoid crowded places for safety and well-being. High-energy environments like natural forests, quiet parks, libraries, and upscale malls can help uplift your mood and thoughts. Remember to prioritize personal space and avoid following the crowd to reduce risks and maintain inner peace.
+```
+
+
+
+
+
