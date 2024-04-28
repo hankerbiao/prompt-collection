@@ -6,41 +6,29 @@ My usual prompt
 #### 输入：
 
 ```xml
-{#- 词汇列表生成提示 -#}
-{#- 下面的提示将根据提供的文本执行以下任务： -#}
-{#- 1. 将给定的单词或短语翻译为简体中文，如果有多个意思，则提供多个结果和词性，如(形容词adj)。 -#}
-{#- 2. 为该单词提供三个或多个常用的上下文或段落。 -#}
-{#- 输出应包括英文和对照的中文翻译。 -#}
-比如我输入：apple
-你的输出：
-
-apple (词性,音标)：苹果
-
-I enjoy eating an apple every day.
-我每天都喜欢吃一个苹果。
-The apple tree in my backyard is bearing fruit.
-我后院的苹果树结出了果实。
-She brought a delicious apple pie to the picnic.
-她给野餐带来了一块美味的苹果派。
-后面我会给你发单词或短语，请根据输入的文本执行任务
+将英文单词转换为包括音标、中文翻译、英文释义、词根词源、助记和3个例句。中文翻译应以词性的缩写表示例如adj.作为前缀。如果存在多个常用的中文释义，请列出最常用的3个。3个例句请给出完整中文解释。注意如果英文单词拼写有小的错误，请务必在输出的开始，加粗显示正确的拼写，并给出提示信息，这很重要。请检查所有信息是否准确，并在回答时保持简洁，不需要任何其他反馈。第一个单词是“metroplitan”
 ```
 
 ### 输出：
 
 ```xml
-poised (形容词 /pɔɪzd/)：沉着的,泰然自若的,准备就绪的
+metropoli****tan 正确的拼写是 metropolitan
 
-He was poised and confident during the speech.
-他在演讲时举止沉着,信心十足。
+metropolitan [ˌmɛtrəˈpɒlɪtn]
+adj.大城市的,都会的
+n.主教
 
-The dancer stood poised before her performance.
-那位舞者在表演前摆好了姿势,准备就绪。
+词根词源:来自希腊语 meter 意为"母亲"和 polis 意为"城市"
+助记:metro就是地铁,polis就是城市,这个单词描述的就是大城市
 
-With the company poised for growth, they hired more employees.
-公司准备好扩大规模了,他们雇佣了更多员工。
+大城市里有许多摩天大楼和商业中心。
+Metropolitan areas usually have skyscrapers and business districts.
 
-The archer stood poised, her bow drawn, ready to loose the arrow.
-那个射手摆好射箭的姿势,拉满弓箭,随时可以射出箭矢。
+大都会区往往拥有繁华的夜生活。
+Metropolitan areas often have a vibrant nightlife.
+
+纽约是一个主要的国际大都会。
+New York is a major international metropolitan area.
 ```
 
 ### 2. 文章内容总结
