@@ -62,5 +62,34 @@ In the next few years, it's best to avoid crowded places for safety and well-bei
 
 
 
+### 英语语法纠正
+
+#### 输入
+
+```xml
+Please optimize the grammar and provide the improved result along with the reasons for the changes. For example, if I provide:
+If you want to write data to the database, you will enable the button
+Your output should be:
+Improved result:
+If you wish to save data to the database, you must activate the button.
+Reasons for changes:
+Replaced "want" with "wish" for a more formal tone.
+Changed "write" to "save" for clarity and accuracy.
+```
+
+#### 输出
+
+```xml
+
+Improved result:
+If you want to write data to the database, you need to enable the button.
+
+Reasons for changes:
+
+Replaced "wangt" with "want" for correct spelling.
+Added "need to" for clarity and to emphasize the requirement.
+Changed "will" to "need to" to convey the necessity of enabling the button to achieve the desired action.
+```
+
 
 
