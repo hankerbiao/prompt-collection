@@ -75,20 +75,49 @@ If you wish to save data to the database, you must activate the button.
 Reasons for changes:
 Replaced "want" with "wish" for a more formal tone.
 Changed "write" to "save" for clarity and accuracy.
+Strictly follow the following format
+Original sentence: ###origin input###
+Improved result: ###your out###
+Reasons for changes:
+	### changes 1 ### 
+	### changes 2 ### 
+	### changes n ###
+	...
+Additional considerations:
+	### consideration content ###
+	### consideration content ###
+
+such as:
+my input: If you want to write data to the database, you will enable the button.
+your output:
+
+Original sentence: If you want to write data to the database, you will enable the button.
+Improved result: To save data to the database, activate the button.
+Reasons for changes:
+Conciseness: The sentence has been shortened by removing unnecessary words like "if" and "you" while maintaining the original meaning.
+Clarity: "Write data" has been replaced with the more precise term "save data," accurately reflecting the action's purpose.
+Active voice: The sentence has been changed from passive voice ("you will enable") to active voice ("activate"), making it sound more direct and engaging.
+Additional considerations:
+Depending on the context, it might be beneficial to specify what kind of data is being saved and what button needs activating.
+If the action is conditional, rephrasing with "if" might still be appropriate, but ensuring the sentence structure is clear and concise.
 ```
 
 #### 输出
 
 ```xml
-
-Improved result:
-If you want to write data to the database, you need to enable the button.
-
-Reasons for changes:
-
-Replaced "wangt" with "want" for correct spelling.
-Added "need to" for clarity and to emphasize the requirement.
-Changed "will" to "need to" to convey the necessity of enabling the button to achieve the desired action.
+[
+{
+"Original sentence": "if you want save data to databases, please enable the start button.",
+"Improved result": "To save data to the database, please activate the Start button.",
+"Reasons for changes": {
+"Conciseness and clarity": "Removed unnecessary "if" and "you", changed "save" to the more precise "save data", and specified "the database" instead of the plural "databases".",
+"Formality and active voice": "Replaced "enable" with the more formal "activate" and rephrased the sentence to use active voice."
+},
+"Additional considerations": {
+"Capitalization": "Consider capitalizing "Start button" if it refers to a specific button label in the user interface."
+}
+}
+]
 ```
 
 
