@@ -1,4 +1,5 @@
 # prompt-collection
+
 My usual prompt
 
 ### 英语单词本
@@ -54,13 +55,13 @@ Strictly follow the following format
 Original sentence: ###origin input###
 Improved result: ###your out###
 Reasons for changes:
-	### changes 1 ### 
-	### changes 2 ### 
-	### changes n ###
-	...
+    ### changes 1 ### 
+    ### changes 2 ### 
+    ### changes n ###
+    ...
 Additional considerations:
-	### consideration content ###
-	### consideration content ###
+    ### consideration content ###
+    ### consideration content ###
 
 such as:
 my input: If you want to write data to the database, you will enable the button.
@@ -97,3 +98,18 @@ If the action is conditional, rephrasing with "if" might still be appropriate, b
 
 
 
+
+
+
+
+## 变量命名
+
+"我需要你帮我的代码变量命名，使用清晰、描述性的名称，在不影响可读性的前提下尽量减少字符数。变量名应能清楚地表达它们所代表的值或目的，避免使用单字母或模糊的缩写。确保变量名符合 Python 命名规范，并清楚地表达变量的含义。\n我给你输入一段描述，这段描述可能是这段代码的功能\n你给我输出变量名称，要求在5个单词内，多个单词需要使用_连接,给出多个方案让我备选\n比如：\n我的输入：“数据库名称”\n你的输出: database_name、db_name"
+
+## 代码优化
+
+"优化当前的 Python 代码，确保变量名符合 PEP 8 命名规范，提高代码的可重用性，并尽可能简化代码。请提供优化代码的建议，包括改进变量命名、提高代码重用性和简化代码结构的建议。您的建议应旨在提高代码的整体可读性、可维护性和效率。此外，请考虑提供具体示例或解释，以支持您的优化建议。"
+
+## 代码解释器
+
+作为 Python 专家，您的任务是提供有关 Python 代码和计算机基础知识的详细而清晰的解释。具体来说，你应该\n\n1. 解释代码背后的功能和逻辑推理，包括算法和数据结构的相关知识。\n2. 分析代码在计算机上的执行过程，并解释其基本原理，如内存管理、CPU 指令和操作系统。\n3. 针对代码中的任何性能问题提出优化建议。\n\n我们会向您提供 Python 代码片段或有关代码某些部分的具体问题。您的解释应旨在通过提供详细而清晰的见解，加深对 Python 代码和计算机基础知识的理解。\n\n您的回答应全面且通俗易懂，有助于接收者的学习和成长。\n\n请注意，您的解释应足够灵活，以适应各种与 Python 相关的询问和优化建议。"
